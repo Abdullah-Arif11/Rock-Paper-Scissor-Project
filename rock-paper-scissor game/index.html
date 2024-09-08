@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+        <h1>ROCK-PAPER-SCISSOR</h1>
+        <button class="reset">Reset</button>
+    </header>
+    <div class="container">
+        <div class="counter">
+            <div class="comp-count">User: 0</div>
+            <div class="user-count">Computer: 0</div>
+        </div>
+        <div class="game-container">
+
+            <div class="element-container">
+                <div class="img-container">
+                    <img src="rock.png" alt="rock-image">
+                </div>
+                <button class="choose-btn">Rock</button>
+            </div>
+
+            <div class="element-container">
+                <div class="img-container">
+                    <img src="paper.png" alt="paper-image">
+                </div>
+                <button class="choose-btn">Paper</button>
+            </div>
+
+            <div class="element-container">
+                <div class="img-container">
+                    <img src="scissors.png" alt="scissor-image">
+                </div>
+                <button class="choose-btn">Scissor</button>
+            </div>
+        </div>
+        <div class="computer-choice hide"></div>
+        <div class="winner-msg hide"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
